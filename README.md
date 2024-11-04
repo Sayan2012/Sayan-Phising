@@ -44,3 +44,5 @@ it should start hosting on local , now open a new terminal and write this comman
 send the link to the victim wait for the victim to write enter username and password after input you will see the information in the python terminal
 
 Note* same ngrok domain can be used for different websites
+
+I you have any problem contact me on [discord](https://discord.gg/Fy86wQwdWS) 
