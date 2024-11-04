@@ -5,12 +5,16 @@ Sign in into Ngrok:-https://ngrok.com/
 Download Ngrok Zip you can also use choco to download
 
 Windows:-
+
 (64-bit):-https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
 (32-bit):-https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-386.zip
+
 *put the ngrok.exe in C:\Windows\System32
 
-Linux:-      
+Linux:- 
+
 Run this command:-
+
 curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
   | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null \
   && echo "deb https://ngrok-agent.s3.amazonaws.com buster main" \
