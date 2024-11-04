@@ -12,6 +12,8 @@ Windows:-
 
 *put the ngrok.exe in C:\Windows\System32
 
+
+
 Linux:- 
 
 Run this command:-
@@ -25,6 +27,8 @@ curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
   | sudo tee /etc/apt/sources.list.d/ngrok.list \
   
   && sudo apt install ngrok
+
+
 
 after that go to ngrok page and get your authtoken and use this command:-
 ngrok config add-authtoken $YOUR_AUTHTOKEN
