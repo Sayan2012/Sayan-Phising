@@ -1,6 +1,7 @@
 Step 1:-
 
 Sign in into Ngrok:-https://ngrok.com/
+
 Download Ngrok Zip you can also use choco to download
       Windows:-
           (64-bit):-https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
