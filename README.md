@@ -40,7 +40,6 @@ ngrok config add-authtoken $YOUR_AUTHTOKEN
 Now again go to ngrok page and register a domain (you can register one domain on free version for free!)
 
 
-
 Now open a file for phishing instagram,snapchat,microsoft,google and click web.py
 Note*
 python should be installed
