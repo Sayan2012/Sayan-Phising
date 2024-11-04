@@ -30,6 +30,8 @@ curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
 
 
 
+
+
 after that go to ngrok page and get your authtoken and use this command:-
 ngrok config add-authtoken $YOUR_AUTHTOKEN
 
