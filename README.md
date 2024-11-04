@@ -7,6 +7,7 @@ Download Ngrok Zip you can also use choco to download
 Windows:-
 
 (64-bit):-https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
+
 (32-bit):-https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-386.zip
 
 *put the ngrok.exe in C:\Windows\System32
