@@ -47,7 +47,4 @@ send the link to the victim wait for the victim to write enter username and pass
 Note* same ngrok domain can be used for different websites
 
 I you have any problem contact me on [discord](https://discord.gg/Fy86wQwdWS)  or [Instagram](https://www.instagram.com/sayan_mandal13_/)
-
-Support me to make more like this 
-
-                                  ![correct-28-48](https://github.com/user-attachments/assets/38f375a8-d165-433b-a3ad-b93a991764c7)
+Support me to make more like this           ![correct-28-48](https://github.com/user-attachments/assets/38f375a8-d165-433b-a3ad-b93a991764c7)
